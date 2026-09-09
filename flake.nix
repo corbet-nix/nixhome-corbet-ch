@@ -16,7 +16,7 @@
     # nixhome; the exported nixhome module is now built from the same factory that translates the
     # rest of the catalogue family.
     nixk3s = {
-      url = "github:julian-corbet/nixk3s-corbet-ch";
+      url = "git+https://github.com/julian-corbet/nixk3s-corbet-ch";
       inputs.nixpkgs.follows = "nixpkgs";
       inputs.nixidy.follows = "nixidy";
     };
