@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# SPDX-License-Identifier: MIT OR Apache-2.0
 # MEASURES THE ONE KIND OF KNOWLEDGE IN THIS CATALOGUE THAT IS NOT DERIVED: how long each
 # application actually takes before its declared readiness endpoint answers, and whether that
 # endpoint still answers at all.

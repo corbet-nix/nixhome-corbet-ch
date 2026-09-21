@@ -4,7 +4,7 @@
 restock, and what has to get done — with the knowledge that makes each one actually run.**
 
 It renders no Kubernetes object of its own. Everything expressible as an app is expressed in
-[nixk3s](https://github.com/julian-corbet/nixk3s-corbet-ch)'s app grammar; what this repository adds
+[nixk3s](https://github.com/corbet-nix/nixk3s-corbet-ch)'s app grammar; what this repository adds
 is the one thing that grammar cannot know — what a household application *is*.
 
 ## Two domains, and the rule that separates them
@@ -175,7 +175,7 @@ swallow the whole application layer. A dashboard that links to these four is a p
 note-taker that happens to hold a shopping list is a note-taker. The test is whether the application
 **is the household's record** of something.
 
-**Not the application cookbook's.** [nixapps](https://github.com/julian-corbet/nixapps-corbet-ch)
+**Not the application cookbook's.** [nixapps](https://github.com/corbet-nix/nixapps-corbet-ch)
 describes *ordinary* self-hosted applications — independent recipes, each complete on its own, paired
 with a short values file. These four are not four independent recipes: they are one subsystem with a
 shared domain model, a namespace that follows from what an application records, and a dependency
@@ -277,14 +277,14 @@ anybody else's four applications.
 ## Related projects
 
 Part of the same independently-usable module family:
-[nixk3s](https://github.com/julian-corbet/nixk3s-corbet-ch) (the app grammar this consumes, and the
+[nixk3s](https://github.com/corbet-nix/nixk3s-corbet-ch) (the app grammar this consumes, and the
 band model its slots answer to),
-[nixapps](https://github.com/julian-corbet/nixapps-corbet-ch) (the cookbook of ordinary self-hosted
+[nixapps](https://github.com/corbet-nix/nixapps-corbet-ch) (the cookbook of ordinary self-hosted
 applications, where an application that is not a household record belongs), and
-[nixdb](https://github.com/julian-corbet/nixdb-corbet-ch) (the database tier — none of the
+[nixdb](https://github.com/corbet-nix/nixdb-corbet-ch) (the database tier — none of the
 applications here needs it, which is most of why they suit a household: every one of them keeps its
 own store in a directory).
 
-## License
+## Licence
 
-MIT License &copy; 2026 Julian Corbet
+Outbound licence is `MIT OR Apache-2.0`. See `LICENSE-MIT` and `LICENSE-APACHE`; every source file carries `SPDX-License-Identifier: MIT OR Apache-2.0`.

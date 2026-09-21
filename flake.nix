@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT OR Apache-2.0
 {
   description = "nixhome — the self-hosted applications that run a household: what you own, what you have to restock, and what has to get done";
 
@@ -16,7 +17,7 @@
     # nixhome; the exported nixhome module is now built from the same factory that translates the
     # rest of the catalogue family.
     nixk3s = {
-      url = "git+https://github.com/julian-corbet/nixk3s-corbet-ch";
+      url = "git+https://github.com/corbet-nix/nixk3s-corbet-ch";
       inputs.nixpkgs.follows = "nixpkgs";
       inputs.nixidy.follows = "nixidy";
     };

@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT OR Apache-2.0
 # Asserts the catalogue's own integrity, and turns the two rules its header argues in prose into
 # things a machine refuses: the DOMAIN split and the NAMING rule.
 #

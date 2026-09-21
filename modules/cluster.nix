@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT OR Apache-2.0
 #
 # nixhome's surface: declare what the household runs, and render every enabled declaration through
 # the shared nixk3s consumer factory. The factory owns the universal app translation; this module

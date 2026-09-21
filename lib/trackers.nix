@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT OR Apache-2.0
 #
 # The household catalogue: what runs a HOUSEHOLD rather than a business or a workstation. Two
 # groups, because the subject genuinely contains two kinds of workload and flattening them would
